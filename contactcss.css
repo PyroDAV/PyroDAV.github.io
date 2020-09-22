@@ -1,0 +1,57 @@
+.dropbtn {
+  background-color: white;
+  color: red;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+}
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: white;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  display: block;
+}
+.dropdown-content a:hover {background-color: red;}
+.dropdown:hover .dropdown-content {display: block;}
+.dropdown:hover .dropbtn {background-color: white;}
+#head { background-color: red;
+height: 105px;
+width: auto;
+border: 1px solid white;
+}
+.pagettl { text-align: center;
+font-size: 50px;
+color: white;}
+#footer {height: 70px; 
+background-color: red;
+font-size: 20px;}
+ul { list-style-type: none;
+margin: 20px;
+padding: 20px;
+font-size: 20px;}
+.button { position: relative; background-color: red;
+	padding: 14px;
+	font-size: 14px;
+	border: 2px solid red;
+	vertical-align: middle;}
+	.homelnk {color: rgb(255, 255, 255); float: left; transition-duration: 0.3s;}
+	.homelnk:hover { background-color: white; color: red;}
+	#homebutton:hover {color: red;}
+	a {color: white;}
+	#inst {color: red;}
+	#fcbook {color: red;}
+	#vkontakte {color: red;}
+	.container { display: flex;
+	flex-direction: row;
+	padding: 50px;}
+	#description {display: inline-block;  padding: 50px; border: 3px solid rgb(240,128,128); font-size: 22px; color: rgb(240,128,128)}	#actualimage {display: inline-block; margin-left: 200px; border: 3px solid rgb(240,128,128); border-radius: 50%;}
