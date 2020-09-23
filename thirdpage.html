@@ -13,22 +13,39 @@
 	</div>
 	</header>
 	<main id="main">
-	<div>
+	
 		<div> 
-		<h2> The history of our land is long and truthfully tragic one. At first, I wanted this page to be a short intercourse into history of Belarus, however, considering recent events, I decided that it shall be my personal interpretation of what makes us distinct from our "neighbours". If you are interested in my thoughts, click there!
+		<h2> The history of our land is long and truthfully tragic one. At first, I wanted this page to be a short intercourse into the history of Belarus, however, considering recent events, I decided that it shall be my personal interpretation of what makes us distinct from our "neighbours". If you are interested in my thoughts, <button class="chckout" onclick="myFunction2()">click there!</button>
 		</h2>
 		</div>
+		<div id="kek">
+		<div>
 		<div>
 		<p class="txt">
 		<img id="flagimg" src="flagimg2.jpg" alt="flag">
 		</p>
 		</div>
 		<div>
-			<h3> You might be familiar with this one. It may appear as a symbol of protest, random combination of 2 colors or even a ultra-nationalistic piece that was forbiden for a more tnan a century. All of that is only partially true in my opinion. For me, "white-red-white" always was and forever will be a sign of freedom, a symbol of purity that is forcefully stained with the blood of the innocent. For me, this combination of colors represents the most important features of my people - struggle for independence and unyielding hope for the better future. Speaking of key national features...</h3>
-			<h3> </h3>
+			<h2> You might be familiar with this one. It may appear as a symbol of protest, random combination of 2 colors or even a ultra-nationalistic piece that was forbiden for a more tnan a century. All of that is only partially true in my opinion. For me, "white-red-white" always was and forever will be a sign of freedom, a symbol of purity that is forcefully stained with the blood of the innocent. For me, this combination of colors represents the most important features of my people - struggle for independence and unyielding hope for the better future. <button class="chckout" onclick="myFunction()">Speaking of key national features...</button></h2>
+		</div>
+		<div id="langinfo">
+		<div><h2> Three most defining traits of the national character</h2></div>
+		<div id="pcfullness">	
+			<h3 class="traits">Peacefulness</h3>
+			<h4 class="traits"> This is the first feature that is taught to us in childhood - belarusian people are the most peaceful and kind people out there. Sometimes some of us get sceptical if it is true, but any captured footage of recents "actions" shall be the evidence that speaks against any doubts.  </h4>
+		</div>
+		<div id="snsofunt">	
+			<h3 class="traits"> Sense of unity</h3>
+			<h4 class="traits"> It would be fair to note that this trait is essential to any nation with developed sense of ethnical affiliation, however, I have never seen the kind of unity that Belarusians show these days before. Or maybe I am just biased on that matter)  </h4>
+		</div>
+		<div id="friendliness">	
+			<h3 class="traits"> Friendliness</h3>
+			<h4 class="traits"> This kind of goes in one hand with peacefulness, but always gets mentioned on its own, perhaps no less that than the first attribute. If you ever appear on a doorstep of a Belarusian with empty pockets, trust me - you will be treated as if you were a part of a family. </h4>
 		</div>
 		</div>
-		<div>
+		</div>
+
+		</div>
 			<div> 
 				<button class="homelnk button"><a id="homebutton" href="secondpage.html">Previous</a></button> <button class="thirdpg button"><a id="nextbutton" href="contactinfo.html">Next</a></button>
 			</div>
@@ -36,6 +53,16 @@
 		<script>
 		function myFunction() {
   var x = document.getElementById("langinfo");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}
+		</script>
+		<script>
+		function myFunction2() {
+  var x = document.getElementById("kek");
   if (x.style.display === "none") {
     x.style.display = "block";
   } else {

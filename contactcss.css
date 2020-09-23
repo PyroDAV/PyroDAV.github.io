@@ -1,9 +1,10 @@
 .dropbtn {
-  background-color: white;
-  color: red;
+ background-color: red;
+  color: white;
   padding: 16px;
   font-size: 16px;
-  border: none;
+  border: 2px solid white;
+  transition-duration: 0.3s;
 }
 .dropdown {
   position: relative;
@@ -23,18 +24,16 @@
 }
 .dropdown-content a:hover {background-color: red;}
 .dropdown:hover .dropdown-content {display: block;}
-.dropdown:hover .dropbtn {background-color: white;}
+.dropdown:hover .dropbtn {background-color: white; color: red;}
 #head { background-color: red;
-height: 105px;
+height: 110px;
 width: auto;
-border: 1px solid white;
+border: none;
+background-image: url('red.jpg');
 }
 .pagettl { text-align: center;
 font-size: 50px;
 color: white;}
-#footer {height: 70px; 
-background-color: red;
-font-size: 20px;}
 ul { list-style-type: none;
 margin: 20px;
 padding: 20px;
@@ -54,4 +53,8 @@ font-size: 20px;}
 	.container { display: flex;
 	flex-direction: row;
 	padding: 50px;}
-	#description {display: inline-block;  padding: 50px; border: 3px solid rgb(240,128,128); font-size: 22px; color: rgb(240,128,128)}	#actualimage {display: inline-block; margin-left: 200px; border: 3px solid rgb(240,128,128); border-radius: 50%;}
+	#description {display: inline-block;  padding: 50px; border: 3px solid rgb(240,128,128); font-size: 22px; color: rgb(240,128,128)}
+	#actualimage {display: inline-block; margin-left: 200px; border: 3px solid rgb(240,128,128); border-radius: 50%;}
+	#main {background-image: url('white2.jpg');
+border: none;}
+h1 {display: inline-block;  padding: 20px; border: 3px solid rgb(240,128,128); font-size: 18px; color: rgb(240,128,128); margin-left: 50px;}
